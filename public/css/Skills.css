@@ -1,0 +1,40 @@
+.slid-part{
+    border: 2px solid skyblue;
+    background-color: rgb(29, 21, 21);
+    border-radius: 1.5rem;
+    color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
+}
+.front-img{
+    clip-path: circle(50% at 50% 50%);
+    width: 80% !important;
+}
+#carouselExample{
+    width: 70%;
+    height: auto;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 3rem;
+}
+.slid-part {
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+.front-img {
+  transition: box-shadow 0.3s ease; /* Smooth transition for the image shadow */
+}
+
+/* Add box shadow when hovering over the .slid-part element */
+.slid-part:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Add box shadow to the front-img when hovering over the .slid-part element */
+.slid-part:hover .front-img {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.visually-hidden ,.carousel-control-next-icon{
+    color: black !important;
+}

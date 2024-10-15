@@ -1,0 +1,43 @@
+.mainFooter{
+   
+    background-color:rgb(247, 235, 219);
+   
+}
+.icon{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem;
+}
+i{
+    font-size: 1.5rem !important;
+    margin: 1%;
+    color: black;
+}
+i:hover{
+    transform: scale(1.2); 
+}
+.link-a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+.link-a:hover{
+    text-decoration: underline;
+}
+.links{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    display: flex;
+}
+.extra{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 3rem;
+}

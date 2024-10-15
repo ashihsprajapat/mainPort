@@ -1,0 +1,14 @@
+.education-item{
+    border: 1px solid black;
+    margin-left: 1.2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.education-item:hover{
+    box-shadow: 0px 5px 5px -5px black, 
+    5px 0px 5px -5px black, 
+   -5px 0px 5px -5px black;
+}
+.edu-card{
+    border: none;
+}

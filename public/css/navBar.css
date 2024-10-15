@@ -1,0 +1,30 @@
+.navbar{
+   background-color:rgb(247, 235, 219) !important;
+    
+   
+    
+}
+.navImg{
+    width: 4rem !important;
+    clip-path: circle(50% at 50% 50%);
+}
+.navImg:hover{
+    
+transform: scale(1.2); 
+}
+.nav-link{
+   
+   align-items: center !important;
+   justify-content: center !important;
+   margin-right:6em !important;
+   color: black !important;
+    
+}
+.nav-link:hover{
+background-color: rgb(216, 243, 243) !important;
+border-radius: 5rem !important;
+cursor: pointer !important; 
+color: black !important;
+transform: scale(1.1); 
+
+}
