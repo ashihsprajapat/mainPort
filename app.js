@@ -16,9 +16,7 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
     res.render("./layout/boilerplate.ejs")
 })
-app.get("/projects",(req,res)=>{
-    res.render("listing/project.ejs");
-})
-app.get("/contect",(req,res)=>{
-    res.render("listing/Contect.ejs")
-})
+const project=require("./routes/project");
+app.use("/projects",project);
+const contect=require("./routes/contect");
+app.use("/contect",contect);
